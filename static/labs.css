@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+html {
+    background: #010066 url("https://pandas.nla.gov.au/images/galaxy90.jpg") no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 800px;
+    margin: 64px auto;
+    margin-top: 64px;
+
+}
