@@ -63,7 +63,6 @@ for isocode, lang in langs.items():
                 url = str(m.group(2))
 
                 if homepage_re.fullmatch(url):
-                    print(isocode, timestamp, url)
                     if url not in sites: sites[url] = []
                     sites[url].append(timestamp)
 
